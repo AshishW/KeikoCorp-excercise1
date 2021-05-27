@@ -204,7 +204,13 @@ header .social li:first-child{
 	background: url('../img/hero.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
-
+@media  screen and (max-width:500px){
+	.hero{
+		background: url('../img/hero_mobile.jpg') no-repeat fixed center center;
+	    background-size: cover;
+	}
+	
+}
 .hero .caption{
 	position: absolute;
 	max-width: 550px;
